@@ -30,8 +30,8 @@ const imdb = require("imdb-api");
 const Enmap = require("enmap");
 const cooldown = new Set();
 const cdtime = 5;
-const prefix = "T"
-client.login("Nzg0MzAzNzU2OTI1NDY4NzEz.X8nVyw.Ozw917_1xQCmjNOoUWVjvDOGrY4")
+const prefix = "!"
+client.login("OTIxODAyODkzMDA5NDkwMDIx.Yb4N1w.22Hhl2E0XhpUqjy5yklV8aRzVgM")
 
 let channelc = JSON.parse(fs.readFileSync('./channelc.json' , 'utf8'));
 let channeld = JSON.parse(fs.readFileSync('./channeld.json' , 'utf8'));
